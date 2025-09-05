@@ -1,0 +1,26 @@
+.display {
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem 2rem */
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-template-columns: 25% 25% 25%;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.painting {
+    display: grid;
+    grid-template-rows: 80% 6% 6%;
+    place-items: center;
+    
+    
+
+}
+
+.painting img {
+width: 20rem;
+height: 20rem;
+object-fit: cover;
+}

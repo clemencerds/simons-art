@@ -11,7 +11,7 @@ function Cart () {
             <h3>item</h3>
             <h3>quantity</h3>
             <h3>price</h3>
-            <h3></h3>
+            {/* <h3> </h3> */}
             </div>
             {cart.map(item => (
                 <div key={item.id} className='cartlist'>

@@ -1,13 +1,13 @@
 import './Root.css';
 import React from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
+import { Outlet, NavLink, Link } from 'react-router-dom';
 
 function Root () {
 
     return(
         <div>
         <div className='root'>
-        <h1>Simon Ray Di Scala</h1>
+        <h1><Link to='/'>Simon Ray Di Scala</Link></h1>
         <nav>
             <ul>
                 <li><NavLink to='/about'>ABOUT</NavLink></li>

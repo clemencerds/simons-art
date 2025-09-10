@@ -1,5 +1,11 @@
 .detailsPage {
     display: flex;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.detailsPage h2{
+    margin-bottom: 3rem;
 }

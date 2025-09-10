@@ -1,11 +1,35 @@
 .cart {
     display: flex;
     flex-direction: column;
-    margin-left: 6rem;
+    margin-left: 7rem;
     margin-top: 3rem;
     gap: 1rem;
 }
 
+.carttitles{
+    display: grid;
+    grid-template-columns: 50% 10% 10% 2%;
+    gap: 2%;
+}
+
+.cartlist{
+    display: grid;
+    grid-template-columns: 50% 10% 10% 2%;
+    gap: 2%;
+}
+
+.carttotal {
+    display: grid;
+    grid-template-columns: 64% 10%;
+    font-weight:600;
+}
+
+
+#quantity {
+    justify-self:;
+}
+
 #checkout {
     width: 6rem;
+    margin-left: 55rem;
 }

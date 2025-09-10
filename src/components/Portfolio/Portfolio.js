@@ -18,7 +18,7 @@ function Portfolio () {
                                 src={painting.img}
                                 alt={painting.title}
                             />
-                            <h3>{painting.title}</h3>
+                            <p>{painting.title}</p>
                         </Link>
                         <p>{painting.price} €</p>
                     </div>

@@ -23,7 +23,7 @@ function PaintingDetails () {
             <img src={painting.img} alt={painting.title} />
             <p>{painting.description}</p>
             <p>{painting.price} €</p>
-            <button onClick={() => addToCart(painting)} >Add to cart</button>
+            <button onClick={() => addToCart(painting)}>Add to cart</button>
         </div>
     )
 };

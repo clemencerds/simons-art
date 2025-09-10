@@ -7,7 +7,7 @@ function Root () {
     return(
         <div>
         <div className='root'>
-        <h1>Simon RAY DI SCALA</h1>
+        <h1>Simon Ray Di Scala</h1>
         <nav>
             <ul>
                 <li><NavLink to='/about'>ABOUT</NavLink></li>

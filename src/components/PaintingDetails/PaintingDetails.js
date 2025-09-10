@@ -1,16 +1,21 @@
-import PaintingsDetails from './PaintingDetails.css'
+import './PaintingDetails.css'
 import React from 'react';
 import {useParams} from 'react-router-dom';
+import {useCart} from '../Cart/CartContext.js'
 import Paintings from '../Paintings/Paintings.js';
 
 function PaintingDetails () {
 
-    const {id} = useParams();
+    const { addToCart} = useCart();  //this is a call to useCart() from CartContext.js. allows access to the cart
+
+    const {id} = useParams(); //gets the id from the url
     const painting = Paintings.find(p => p.id === parseInt(id));
 
     if (!painting) {
         return <p>this painting cannot be found</p>
     };
+
+    
 
     return (
         <div className='detailsPage'>
@@ -18,7 +23,7 @@ function PaintingDetails () {
             <img src={painting.img} alt={painting.title} />
             <p>{painting.description}</p>
             <p>{painting.price} €</p>
-            <button>Ajouter au panier</button>
+            <button onClick={() => addToCart(painting)} >Add to cart</button>
         </div>
     )
 };

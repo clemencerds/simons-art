@@ -1,5 +1,6 @@
 import './Portfolio.css';
 import React from 'react';
+import {Link} from 'react-router-dom'
 import paintings from '../Paintings/Paintings.js'
 
 
@@ -12,11 +13,13 @@ function Portfolio () {
                     <div 
                         className='painting'
                         key= {painting.id}>
-                        <img 
-                            src={painting.img}
-                            alt={painting.title}
-                        />
-                        <h3>{painting.title}</h3>
+                        <Link to={`/painting/${painting.id}`}>
+                            <img 
+                                src={painting.img}
+                                alt={painting.title}
+                            />
+                            <h3>{painting.title}</h3>
+                        </Link>
                         <p>{painting.price} €</p>
                     </div>
                 ))};

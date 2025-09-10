@@ -5,7 +5,7 @@ function About () {
 
     return(
         <div className='About'>
-            <h2>About Simon</h2>
+            <h2>about Simon</h2>
             <div className='aboutcontent'>
                 <p id='abouttext'>Simon discovered his passion for drawing and painting at an early age. As a child and teenager, he would spend hours observing, sketching, and exploring colors. Over time, this passion was set aside, eclipsed by other priorities in life.
         <br/>

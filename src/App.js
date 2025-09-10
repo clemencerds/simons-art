@@ -1,11 +1,13 @@
 import './App.css';
 import React from 'react';
 import {RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
+import {CartProvider} from './components/Cart/CartContext.js'
 import Root from './components/Root/Root.js';
 import About from './components/About/About.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
 import Cart from './components/Cart/Cart.js';
-import PaintingDetails from './components/PaintingDetails/PaintingDetails.js'
+import PaintingDetails from './components/PaintingDetails/PaintingDetails.js';
+
 
 
 
@@ -24,7 +26,10 @@ function App() {
 
 
   return (
-    <RouterProvider router ={ router } />
+    //CartProvider is above everything because it provides the cart
+    <CartProvider>
+      <RouterProvider router ={ router } />
+    </CartProvider>
   );
 };
 

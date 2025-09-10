@@ -5,6 +5,11 @@
     margin-right: 13rem;
 }
 
+.About h2{
+    font-family: 'Allura';
+    font-size: 2rem;
+    font-weight: 400rem;
+}
 .aboutcontent{
     display: flex;
     flex-direction: row;

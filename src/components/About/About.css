@@ -1,0 +1,20 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+.aboutcontent{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+#abouttext{
+    max-width: 60%;
+}
+
+#aboutimg{
+    min-width: 30%;
+}

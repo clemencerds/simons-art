@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/clemence.rds.github.io/simons-art/static/css/main.325c8c63.css",
-    "main.js": "/clemence.rds.github.io/simons-art/static/js/main.3a45284f.js",
-    "static/js/453.01a63eac.chunk.js": "/clemence.rds.github.io/simons-art/static/js/453.01a63eac.chunk.js",
-    "index.html": "/clemence.rds.github.io/simons-art/index.html",
-    "main.325c8c63.css.map": "/clemence.rds.github.io/simons-art/static/css/main.325c8c63.css.map",
-    "main.3a45284f.js.map": "/clemence.rds.github.io/simons-art/static/js/main.3a45284f.js.map",
-    "453.01a63eac.chunk.js.map": "/clemence.rds.github.io/simons-art/static/js/453.01a63eac.chunk.js.map"
+    "main.css": "/simons-art/static/css/main.325c8c63.css",
+    "main.js": "/simons-art/static/js/main.49b3902b.js",
+    "static/js/453.01a63eac.chunk.js": "/simons-art/static/js/453.01a63eac.chunk.js",
+    "index.html": "/simons-art/index.html",
+    "main.325c8c63.css.map": "/simons-art/static/css/main.325c8c63.css.map",
+    "main.49b3902b.js.map": "/simons-art/static/js/main.49b3902b.js.map",
+    "453.01a63eac.chunk.js.map": "/simons-art/static/js/453.01a63eac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325c8c63.css",
-    "static/js/main.3a45284f.js"
+    "static/js/main.49b3902b.js"
   ]
 }

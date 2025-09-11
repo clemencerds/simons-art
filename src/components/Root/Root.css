@@ -5,10 +5,10 @@ body {
   }
 
 .root{
-position: sticky;
-top:0;
-background-color: white;
-padding-bottom: 1.5rem;
+    position: sticky;
+    top:0;
+    background-color: white;
+    padding-bottom: 1.5rem;
 }
 
 h1{
@@ -34,7 +34,105 @@ margin-right: 10rem;
 
 }
 
-nav a{
+nav ul li a{
     text-decoration: none;
     color: dimgray;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li a.active {
+    color: black;
+}
+
+/* cache le bouton hamburger sur desktop */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 2rem;
+  }
+  
+  /* Drawer caché par défaut */
+  .drawer {
+    position: fixed;
+    top: 0;
+    left: -100%; /* caché en dehors de l’écran */
+    width: 250px;
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+    transition: left 0.3s ease;
+    padding: 2rem 1rem;
+    z-index: 1000;
+  }
+  
+  .drawer.open {
+    left: 0; /* slide-in */
+  }
+  
+  .drawer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .drawer ul li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .drawer ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: dimgray;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+
+@media only screen and (max-width:950px) {
+    .desktop-nav {
+        display: none; /* cache les liens classiques */
+      }
+    
+      .hamburger {
+        display: block;
+      }
+    
+      .root {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+      }
+    
+      h1 {
+        margin:;
+        font-size: 2rem;
+        
+      }
+        
+        
+        
+    nav ul{
+        gap: 3rem;
+        margin: 0;
+        justify-content: center;
+        
+    }
+        
+    nav ul li a{
+            text-decoration: none;
+            color: dimgray;
+            
+    }
+
 }

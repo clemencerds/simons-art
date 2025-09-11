@@ -9,7 +9,7 @@ function Cart () {
             <h2>shopping cart</h2>
             <div className='carttitles'>
             <h3>item</h3>
-            <h3>quantity</h3>
+            <h3>qty</h3>
             <h3>price</h3>
             {/* <h3> </h3> */}
             </div>

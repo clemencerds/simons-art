@@ -25,11 +25,38 @@
 }
 
 
-#quantity {
-    justify-self:;
-}
-
 #checkout {
     width: 6rem;
     margin-left: 55rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .cart {
+        margin-left: 3rem;
+    }
+    #checkout {
+        margin: 0;
+        align-self: center;
+    }
+    .cartlist {
+        font-size: 0.8rem;
+    }
+
+    .carttitles{
+        
+        grid-template-columns: 55% 12% 12% 5%;
+        
+    }
+    
+    .cartlist{
+        grid-template-columns: 55% 12% 12% 5%;
+        
+    }
+    
+    .carttotal {
+       
+        grid-template-columns: 71% 10%;
+        
+    }
+    
 }

@@ -9,3 +9,10 @@
 .detailsPage h2{
     margin-bottom: 3rem;
 }
+
+@media only screen and (max-width:900px) {
+    .detailsPage img {
+        max-width: 100%;
+        
+    }
+}

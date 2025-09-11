@@ -54,7 +54,7 @@ nav ul li a.active {
     background: none;
     border: none;
     cursor: pointer;
-    margin-right: 2rem;
+    margin-right: rem;
   }
   
   /* Drawer caché par défaut */
@@ -109,14 +109,15 @@ nav ul li a.active {
     
       .root {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
       }
     
       h1 {
-        margin:;
-        font-size: 2rem;
+        margin-left:0;
+        font-size: 2.5rem;
         
       }
         

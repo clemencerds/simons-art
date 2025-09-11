@@ -38,4 +38,8 @@ object-fit: cover;
     .display {
         grid-template-columns: 100%;
     }
+
+    .painting p{
+        text-align: center;
+    }
 }

@@ -10,7 +10,6 @@ import PaintingDetails from './components/PaintingDetails/PaintingDetails.js';
 
 
 
-
 function App() {
 
 

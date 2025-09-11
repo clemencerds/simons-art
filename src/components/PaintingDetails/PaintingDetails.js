@@ -1,4 +1,4 @@
-import './PaintingDetails.css'
+import './PaintingDetails.css';
 import React from 'react';
 import {useParams} from 'react-router-dom';
 import {useCart} from '../Cart/CartContext.js'

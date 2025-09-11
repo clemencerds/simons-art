@@ -1,4 +1,4 @@
-import './Cart.css'
+import './Cart.css';
 import React from 'react';
 import {useCart} from '../Cart/CartContext.js'
 

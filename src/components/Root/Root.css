@@ -98,7 +98,7 @@ nav ul li a.active {
     margin-bottom: 2rem;
   }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:900px) {
     .desktop-nav {
         display: none; /* cache les liens classiques */
       }
@@ -113,7 +113,7 @@ nav ul li a.active {
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
-        position:relative
+        position:relative;
       }
     
       h1 {

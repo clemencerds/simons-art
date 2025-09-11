@@ -40,4 +40,8 @@
     #aboutimg {
         width: 80%;
     }
+
+    #abouttext {
+        max-width: 90%;
+    }
 }
